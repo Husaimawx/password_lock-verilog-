@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 26 20:59:18 2019
+# Process ID: 8808
+# Current directory: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_clock_10_1_0_synth_1
+# Command line: vivado.exe -log design_1_clock_10_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_clock_10_1_0.tcl
+# Log file: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_clock_10_1_0_synth_1/design_1_clock_10_1_0.vds
+# Journal file: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_clock_10_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_clock_10_1_0.tcl -notrace

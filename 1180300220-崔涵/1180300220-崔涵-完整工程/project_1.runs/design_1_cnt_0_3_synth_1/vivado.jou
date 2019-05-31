@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat May 25 22:26:40 2019
+# Process ID: 6624
+# Current directory: C:/Users/lenovo/Desktop/coded_lock/coded_lock.runs/design_1_cnt_0_3_synth_1
+# Command line: vivado.exe -log design_1_cnt_0_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_cnt_0_3.tcl
+# Log file: C:/Users/lenovo/Desktop/coded_lock/coded_lock.runs/design_1_cnt_0_3_synth_1/design_1_cnt_0_3.vds
+# Journal file: C:/Users/lenovo/Desktop/coded_lock/coded_lock.runs/design_1_cnt_0_3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_cnt_0_3.tcl -notrace

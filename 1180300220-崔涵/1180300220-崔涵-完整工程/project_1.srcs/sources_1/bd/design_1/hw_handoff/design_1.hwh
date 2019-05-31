@@ -1,0 +1,1457 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun May 26 22:32:11 2019" VIVADOVERSION="2018.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-3"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="d1" SIGIS="undef" SIGNAME="External_Ports_d1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cnt_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="d2" SIGIS="undef" SIGNAME="External_Ports_d2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cnt_1" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="d3" SIGIS="undef" SIGNAME="External_Ports_d3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cnt_3" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="d4" SIGIS="undef" SIGNAME="External_Ports_d4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="cnt_2" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xishi_0" PORT="clk"/>
+        <CONNECTION INSTANCE="xishi2_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b1" SIGIS="undef" SIGNAME="jiepai_0_q1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b2" SIGIS="undef" SIGNAME="jiepai_0_q2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b3" SIGIS="undef" SIGNAME="jiepai_0_q3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b4" SIGIS="undef" SIGNAME="jiepai_0_q4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q1" SIGIS="undef" SIGNAME="huo4_0_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_0" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q2" SIGIS="undef" SIGNAME="huo4_1_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_1" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q3" SIGIS="undef" SIGNAME="huo4_2_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_2" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q4" SIGIS="undef" SIGNAME="huo4_3_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_3" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q5" SIGIS="undef" SIGNAME="huo4_4_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_4" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q6" SIGIS="undef" SIGNAME="huo4_5_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_5" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q7" SIGIS="undef" SIGNAME="huo4_6_oup">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo4_6" PORT="oup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="change" SIGIS="undef" SIGNAME="External_Ports_change">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="compar_0" PORT="change"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="enter" SIGIS="undef" SIGNAME="External_Ports_enter">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="compar_0" PORT="enter"/>
+        <CONNECTION INSTANCE="amount_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ent" SIGIS="undef" SIGNAME="External_Ports_ent">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clock_5_0" PORT="enter"/>
+        <CONNECTION INSTANCE="clock_10_1" PORT="enter"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c1" SIGIS="undef" SIGNAME="jiepai_0_q5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c2" SIGIS="undef" SIGNAME="jiepai_0_q6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p1" SIGIS="undef" SIGNAME="huo2_4_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_4" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p2" SIGIS="undef" SIGNAME="huo2_1_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_1" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p3" SIGIS="undef" SIGNAME="huo2_6_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_6" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p4" SIGIS="undef" SIGNAME="huo2_5_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_5" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p5" SIGIS="undef" SIGNAME="huo2_0_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_0" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p6" SIGIS="undef" SIGNAME="huo2_2_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_2" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="p7" SIGIS="undef" SIGNAME="huo2_3_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="huo2_3" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="q8" SIGIS="undef" SIGNAME="clock_5_0_h">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clock_5_0" PORT="h"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c3" SIGIS="undef" SIGNAME="jiepai_0_q7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jiepai_0" PORT="q7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans1" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans2" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans3" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans4" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans5" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans6" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ans7" SIGIS="undef" SIGNAME="yu4_0_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="yu4_0" PORT="f"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/amount_0" HWVERSION="1.0" INSTANCE="amount_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amount" VLNV="xilinx.com:module_ref:amount:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_amount_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_enter">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="enter"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="jin" SIGIS="undef" SIGNAME="clock_5_0_jin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="jin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="jin1" SIGIS="undef" SIGNAME="clock_10_1_jin1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="jin1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="amount_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_4" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="amount_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="amount_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_6" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="amount_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_5" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="amount_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="amount_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="amount_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="light" SIGIS="undef" SIGNAME="amount_0_light">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="yu4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/clock_10_1" HWVERSION="1.0" INSTANCE="clock_10_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="clock_10" VLNV="xilinx.com:module_ref:clock_10:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_clock_10_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="xishi2_0_outp2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xishi2_0" PORT="outp2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enter" SIGIS="undef" SIGNAME="External_Ports_ent">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ent"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="jin" SIGIS="undef" SIGNAME="clock_5_0_jin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="jin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="clock_10_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_4" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="clock_10_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_6" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="clock_10_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_5" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="clock_10_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="clock_10_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="clock_10_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_3" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="jin1" SIGIS="undef" SIGNAME="clock_10_1_jin1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="jin1"/>
+            <CONNECTION INSTANCE="huotwo_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/clock_5_0" HWVERSION="1.0" INSTANCE="clock_5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="clock_5" VLNV="xilinx.com:module_ref:clock_5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_clock_5_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="xishi2_0_outp1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xishi2_0" PORT="outp1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst"/>
+        <PORT DIR="I" NAME="enter" SIGIS="undef" SIGNAME="External_Ports_ent">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ent"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_4" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="clock_5_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="clock_5_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_6" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="clock_5_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_5" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="clock_5_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="clock_5_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="clock_5_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo2_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef" SIGNAME="clock_5_0_h">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="jin" SIGIS="undef" SIGNAME="clock_5_0_jin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="jin"/>
+            <CONNECTION INSTANCE="amount_0" PORT="jin"/>
+            <CONNECTION INSTANCE="huotwo_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/cnt_0" HWVERSION="1.0" INSTANCE="cnt_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cnt" VLNV="xilinx.com:module_ref:cnt:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_cnt_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="cnt_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="cnt_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_1" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="cnt_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_2" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="cnt_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_3" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="cnt_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_4" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="cnt_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_5" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="cnt_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_6" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="d3" SIGIS="undef" SIGNAME="cnt_0_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d2" SIGIS="undef" SIGNAME="cnt_0_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d1" SIGIS="undef" SIGNAME="cnt_0_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d0" SIGIS="undef" SIGNAME="cnt_0_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d14"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/cnt_1" HWVERSION="1.0" INSTANCE="cnt_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cnt" VLNV="xilinx.com:module_ref:cnt:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_cnt_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="cnt_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="cnt_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_1" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="cnt_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_2" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="cnt_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_3" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="cnt_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_4" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="cnt_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_5" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="cnt_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_6" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="d3" SIGIS="undef" SIGNAME="cnt_1_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d2" SIGIS="undef" SIGNAME="cnt_1_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d1" SIGIS="undef" SIGNAME="cnt_1_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d23"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d0" SIGIS="undef" SIGNAME="cnt_1_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d24"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/cnt_2" HWVERSION="1.0" INSTANCE="cnt_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cnt" VLNV="xilinx.com:module_ref:cnt:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_cnt_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_d4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="cnt_2_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_0" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="cnt_2_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_1" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="cnt_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_2" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="cnt_2_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_3" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="cnt_2_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_4" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="cnt_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_5" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="cnt_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_6" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="d3" SIGIS="undef" SIGNAME="cnt_2_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d41"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d2" SIGIS="undef" SIGNAME="cnt_2_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d42"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d1" SIGIS="undef" SIGNAME="cnt_2_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d43"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d0" SIGIS="undef" SIGNAME="cnt_2_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d44"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/cnt_3" HWVERSION="1.0" INSTANCE="cnt_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cnt" VLNV="xilinx.com:module_ref:cnt:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_cnt_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst"/>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="jiepai_0_q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="q3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="cnt_3_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="cnt_3_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_1" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="cnt_3_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_2" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="cnt_3_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_3" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="cnt_3_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_4" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="cnt_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_5" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="cnt_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huo4_6" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="h" SIGIS="undef"/>
+        <PORT DIR="O" NAME="d3" SIGIS="undef" SIGNAME="cnt_3_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d31"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d2" SIGIS="undef" SIGNAME="cnt_3_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d32"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d1" SIGIS="undef" SIGNAME="cnt_3_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d33"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d0" SIGIS="undef" SIGNAME="cnt_3_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="d34"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/compar_0" HWVERSION="1.0" INSTANCE="compar_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar" VLNV="xilinx.com:module_ref:compar:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d11" SIGIS="undef" SIGNAME="cnt_0_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="d3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d12" SIGIS="undef" SIGNAME="cnt_0_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d13" SIGIS="undef" SIGNAME="cnt_0_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d14" SIGIS="undef" SIGNAME="cnt_0_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="d0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d21" SIGIS="undef" SIGNAME="cnt_1_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="d3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d22" SIGIS="undef" SIGNAME="cnt_1_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d23" SIGIS="undef" SIGNAME="cnt_1_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d24" SIGIS="undef" SIGNAME="cnt_1_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="d0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d31" SIGIS="undef" SIGNAME="cnt_3_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="d3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d32" SIGIS="undef" SIGNAME="cnt_3_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d33" SIGIS="undef" SIGNAME="cnt_3_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d34" SIGIS="undef" SIGNAME="cnt_3_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="d0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d41" SIGIS="undef" SIGNAME="cnt_2_d3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="d3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d42" SIGIS="undef" SIGNAME="cnt_2_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d43" SIGIS="undef" SIGNAME="cnt_2_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d44" SIGIS="undef" SIGNAME="cnt_2_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="d0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="change" SIGIS="undef" SIGNAME="External_Ports_change">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="change"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enter" SIGIS="undef" SIGNAME="External_Ports_enter">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="enter"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="answer" SIGIS="undef" SIGNAME="compar_0_answer">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="yu4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_0" HWVERSION="1.0" INSTANCE="huo2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_1" HWVERSION="1.0" INSTANCE="huo2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_2" HWVERSION="1.0" INSTANCE="huo2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_3" HWVERSION="1.0" INSTANCE="huo2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_3_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_4" HWVERSION="1.0" INSTANCE="huo2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_4_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_5" HWVERSION="1.0" INSTANCE="huo2_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_5_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo2_6" HWVERSION="1.0" INSTANCE="huo2_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo2" VLNV="xilinx.com:module_ref:huo2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo2_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="amount_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huo2_6_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="p3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_0" HWVERSION="1.0" INSTANCE="huo4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_0_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_1" HWVERSION="1.0" INSTANCE="huo4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_1_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_2" HWVERSION="1.0" INSTANCE="huo4_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_2_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_3" HWVERSION="1.0" INSTANCE="huo4_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_3_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_4" HWVERSION="1.0" INSTANCE="huo4_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_4_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_5" HWVERSION="1.0" INSTANCE="huo4_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_5_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huo4_6" HWVERSION="1.0" INSTANCE="huo4_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huo4" VLNV="xilinx.com:module_ref:huo4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huo4_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="cnt_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="cnt_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_1" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="cnt_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_3" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="cnt_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cnt_2" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oup" SIGIS="undef" SIGNAME="huo4_6_oup">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="q7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/huotwo_0" HWVERSION="1.0" INSTANCE="huotwo_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="huotwo" VLNV="xilinx.com:module_ref:huotwo:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_huotwo_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="clock_5_0_jin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="jin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="clock_10_1_jin1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="jin1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="huotwo_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="yu4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/jiepai_0" HWVERSION="1.0" INSTANCE="jiepai_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="jiepai" VLNV="xilinx.com:module_ref:jiepai:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_jiepai_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="xishi_0_outp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xishi_0" PORT="outp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q1" SIGIS="undef" SIGNAME="jiepai_0_q1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1"/>
+            <CONNECTION INSTANCE="cnt_0" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q2" SIGIS="undef" SIGNAME="jiepai_0_q2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b2"/>
+            <CONNECTION INSTANCE="cnt_1" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q3" SIGIS="undef" SIGNAME="jiepai_0_q3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b3"/>
+            <CONNECTION INSTANCE="cnt_3" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q4" SIGIS="undef" SIGNAME="jiepai_0_q4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b4"/>
+            <CONNECTION INSTANCE="cnt_2" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q5" SIGIS="undef" SIGNAME="jiepai_0_q5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c1"/>
+            <CONNECTION INSTANCE="clock_5_0" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q6" SIGIS="undef" SIGNAME="jiepai_0_q6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c2"/>
+            <CONNECTION INSTANCE="clock_10_1" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q7" SIGIS="undef" SIGNAME="jiepai_0_q7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c3"/>
+            <CONNECTION INSTANCE="amount_0" PORT="ce"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xishi2_0" HWVERSION="1.0" INSTANCE="xishi2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xishi2" VLNV="xilinx.com:module_ref:xishi2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xishi2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="outp1" SIGIS="undef" SIGNAME="xishi2_0_outp1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_5_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="outp2" SIGIS="undef" SIGNAME="xishi2_0_outp2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clock_10_1" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xishi_0" HWVERSION="1.0" INSTANCE="xishi_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xishi" VLNV="xilinx.com:module_ref:xishi:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xishi_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="outp" SIGIS="undef" SIGNAME="xishi_0_outp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jiepai_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/yu4_0" HWVERSION="1.0" INSTANCE="yu4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="yu4" VLNV="xilinx.com:module_ref:yu4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_yu4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="amount_0_light">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amount_0" PORT="light"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="huotwo_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="huotwo_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="compar_0_answer">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="compar_0" PORT="answer"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="yu4_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans1"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans7"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans4"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans5"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans6"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans2"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ans3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

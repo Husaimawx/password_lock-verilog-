@@ -1,0 +1,177 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port ans3 -pg 1 -y -650 -defaultsOSRD
+preplace port ent -pg 1 -y -90 -defaultsOSRD
+preplace port b1 -pg 1 -y -330 -defaultsOSRD
+preplace port ans4 -pg 1 -y -630 -defaultsOSRD
+preplace port q1 -pg 1 -y -470 -defaultsOSRD
+preplace port b2 -pg 1 -y -310 -defaultsOSRD
+preplace port ans5 -pg 1 -y -610 -defaultsOSRD
+preplace port q2 -pg 1 -y -450 -defaultsOSRD
+preplace port b3 -pg 1 -y -290 -defaultsOSRD
+preplace port ans6 -pg 1 -y -590 -defaultsOSRD
+preplace port p1 -pg 1 -y -930 -defaultsOSRD
+preplace port q3 -pg 1 -y -430 -defaultsOSRD
+preplace port b4 -pg 1 -y -270 -defaultsOSRD
+preplace port ans7 -pg 1 -y -570 -defaultsOSRD
+preplace port p2 -pg 1 -y -910 -defaultsOSRD
+preplace port c1 -pg 1 -y -790 -defaultsOSRD
+preplace port q4 -pg 1 -y -410 -defaultsOSRD
+preplace port p3 -pg 1 -y -890 -defaultsOSRD
+preplace port c2 -pg 1 -y -770 -defaultsOSRD
+preplace port q5 -pg 1 -y -390 -defaultsOSRD
+preplace port c3 -pg 1 -y -730 -defaultsOSRD
+preplace port p4 -pg 1 -y -870 -defaultsOSRD
+preplace port q6 -pg 1 -y -370 -defaultsOSRD
+preplace port ans -pg 1 -y -710 -defaultsOSRD
+preplace port p5 -pg 1 -y -850 -defaultsOSRD
+preplace port enter -pg 1 -y -370 -defaultsOSRD
+preplace port q7 -pg 1 -y -350 -defaultsOSRD
+preplace port q8 -pg 1 -y -750 -defaultsOSRD
+preplace port p6 -pg 1 -y -830 -defaultsOSRD
+preplace port p7 -pg 1 -y -810 -defaultsOSRD
+preplace port d1 -pg 1 -y -470 -defaultsOSRD
+preplace port clk -pg 1 -y -390 -defaultsOSRD
+preplace port d2 -pg 1 -y -450 -defaultsOSRD
+preplace port ans1 -pg 1 -y -690 -defaultsOSRD
+preplace port d3 -pg 1 -y -430 -defaultsOSRD
+preplace port ans2 -pg 1 -y -670 -defaultsOSRD
+preplace port change -pg 1 -y -350 -defaultsOSRD
+preplace port d4 -pg 1 -y -410 -defaultsOSRD
+preplace inst xishi2_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace inst jiepai_0 -pg 1 -lvl 5 -y -180 -defaultsOSRD
+preplace inst compar_0 -pg 1 -lvl 8 -y -260 -defaultsOSRD
+preplace inst cnt_0 -pg 1 -lvl 6 -y -270 -defaultsOSRD
+preplace inst huo4_0 -pg 1 -lvl 7 -y -400 -defaultsOSRD
+preplace inst cnt_1 -pg 1 -lvl 6 -y 50 -defaultsOSRD
+preplace inst yu4_0 -pg 1 -lvl 8 -y 130 -defaultsOSRD
+preplace inst huo4_1 -pg 1 -lvl 7 -y -240 -defaultsOSRD
+preplace inst xishi_0 -pg 1 -lvl 5 -y -340 -defaultsOSRD
+preplace inst cnt_2 -pg 1 -lvl 6 -y 690 -defaultsOSRD
+preplace inst amount_0 -pg 1 -lvl 2 -y 460 -defaultsOSRD
+preplace inst huo4_2 -pg 1 -lvl 7 -y -80 -defaultsOSRD
+preplace inst cnt_3 -pg 1 -lvl 6 -y 370 -defaultsOSRD
+preplace inst clock_5_0 -pg 1 -lvl 2 -y -80 -defaultsOSRD
+preplace inst huo2_0 -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst huo4_3 -pg 1 -lvl 7 -y 80 -defaultsOSRD
+preplace inst huo2_1 -pg 1 -lvl 3 -y -130 -defaultsOSRD
+preplace inst huo4_4 -pg 1 -lvl 7 -y 240 -defaultsOSRD
+preplace inst huo2_2 -pg 1 -lvl 3 -y 430 -defaultsOSRD
+preplace inst huo4_5 -pg 1 -lvl 7 -y 400 -defaultsOSRD
+preplace inst huo2_3 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst huo4_6 -pg 1 -lvl 7 -y 560 -defaultsOSRD
+preplace inst huotwo_0 -pg 1 -lvl 4 -y 120 -defaultsOSRD
+preplace inst huo2_4 -pg 1 -lvl 3 -y -270 -defaultsOSRD
+preplace inst huo2_5 -pg 1 -lvl 3 -y 150 -defaultsOSRD
+preplace inst huo2_6 -pg 1 -lvl 3 -y 10 -defaultsOSRD
+preplace inst clock_10_1 -pg 1 -lvl 2 -y 190 -defaultsOSRD
+preplace netloc amount_0_b 1 2 1 -700
+preplace netloc huo2_6_c 1 3 6 -400J -800 NJ -800 NJ -800 NJ -800 NJ -800 1590
+preplace netloc cnt_2_d3 1 6 2 820 -540 1140J
+preplace netloc amount_0_c 1 2 1 -670
+preplace netloc amount_0_d 1 2 1 -650
+preplace netloc ent_1 1 0 2 N -90 -1060
+preplace netloc amount_0_e 1 2 1 -640
+preplace netloc clock_5_0_a 1 2 1 -780
+preplace netloc amount_0_f 1 2 1 -630
+preplace netloc clock_5_0_b 1 2 1 -750
+preplace netloc d2_1 1 0 6 NJ -450 -1060 -470 N -470 N -470 N -470 270
+preplace netloc amount_0_g 1 2 1 -780
+preplace netloc clock_5_0_c 1 2 1 -640
+preplace netloc clock_5_0_d 1 2 1 -650
+preplace netloc clock_10_1_a 1 2 1 -770
+preplace netloc enter_1 1 0 8 NJ -370 -1050J -460 NJ -460 NJ -460 NJ -460 240J -490 NJ -490 1090
+preplace netloc huo2_3_c 1 3 6 -360J -760 NJ -760 NJ -760 NJ -760 NJ -760 1650
+preplace netloc huo2_4_c 1 3 6 -420J -820 NJ -820 NJ -820 NJ -820 NJ -820 1570
+preplace netloc clock_5_0_e 1 2 1 -660
+preplace netloc clock_10_1_b 1 2 1 -750
+preplace netloc jiepai_0_q1 1 5 4 230 -700 N -700 N -700 1670
+preplace netloc huo4_4_oup 1 7 2 1250J -510 1600
+preplace netloc xishi2_0_outp1 1 1 1 -1040
+preplace netloc clock_5_0_f 1 2 1 -690
+preplace netloc clock_10_1_c 1 2 1 -720
+preplace netloc xishi_0_outp 1 4 2 -90 -400 220
+preplace netloc xishi2_0_outp2 1 1 1 -1070
+preplace netloc jiepai_0_q2 1 5 4 330 -690 N -690 N -690 1650
+preplace netloc clock_5_0_g 1 2 1 -730
+preplace netloc clock_10_1_d 1 2 1 -680
+preplace netloc cnt_1_a 1 6 1 630
+preplace netloc jiepai_0_q3 1 5 4 290 -680 N -680 N -680 1640
+preplace netloc clock_5_0_h 1 2 7 -790 -730 NJ -730 NJ -730 NJ -730 NJ -730 NJ -730 1680J
+preplace netloc clock_10_1_e 1 2 1 -720
+preplace netloc cnt_1_b 1 6 1 650
+preplace netloc jiepai_0_q4 1 5 4 280 -590 500 -670 N -670 1580
+preplace netloc clock_10_1_jin2 1 1 3 -1010 610 -790 660 -340
+preplace netloc clock_10_1_f 1 2 1 -750
+preplace netloc jiepai_0_q5 1 1 8 -1020 -430 NJ -430 NJ -430 N -430 260 -580 490 -750 N -750 1660
+preplace netloc cnt_1_c 1 6 1 690
+preplace netloc huo4_2_oup 1 7 2 1190J -560 1680
+preplace netloc clock_5_0_jin1 1 1 3 -1020 600 -760 650 -350
+preplace netloc clock_10_1_g 1 2 1 -770
+preplace netloc jiepai_0_q6 1 1 8 -1010 -420 NJ -420 NJ -420 N -420 320 -470 510 -740 N -740 1670
+preplace netloc cnt_1_d 1 6 1 670
+preplace netloc jiepai_0_q7 1 1 8 -1030 -450 NJ -450 NJ -450 N -450 310 -480 520 -720 N -720 1690
+preplace netloc cnt_1_e 1 6 1 650
+preplace netloc cnt_1_f 1 6 1 630
+preplace netloc cnt_1_g 1 6 1 610
+preplace netloc huo2_1_c 1 3 6 -410J -810 NJ -810 NJ -810 NJ -810 NJ -810 1580
+preplace netloc cnt_3_d0 1 6 2 710 -530 1130J
+preplace netloc change_1 1 0 8 -1300J -600 NJ -600 NJ -600 NJ -600 NJ -600 NJ -600 NJ -600 1180
+preplace netloc huo4_0_oup 1 7 2 1200J -520 1660
+preplace netloc cnt_3_d1 1 6 2 720 -520 1120J
+preplace netloc cnt_2_a 1 6 1 830
+preplace netloc cnt_3_d2 1 6 2 730 -510 1110J
+preplace netloc cnt_0_a 1 6 1 610
+preplace netloc cnt_2_b 1 6 1 850
+preplace netloc cnt_0_b 1 6 1 780
+preplace netloc cnt_2_c 1 6 1 870
+preplace netloc huo4_1_oup 1 7 2 1240J -490 1610
+preplace netloc cnt_3_d3 1 6 2 740 -500 1100J
+preplace netloc d4_1 1 0 6 NJ -410 N -410 N -410 N -410 N -410 240
+preplace netloc cnt_0_c 1 6 1 770
+preplace netloc cnt_2_d 1 6 1 880
+preplace netloc cnt_1_d0 1 6 2 570 -640 1320J
+preplace netloc cnt_0_d 1 6 1 750
+preplace netloc cnt_2_e 1 6 1 890
+preplace netloc cnt_1_d1 1 6 2 580 -630 1310J
+preplace netloc d1_1 1 0 6 NJ -470 -1070 -480 N -480 N -480 N -480 300
+preplace netloc cnt_0_e 1 6 1 700
+preplace netloc cnt_0_d0 1 6 2 550J -590 1280
+preplace netloc cnt_2_f 1 6 1 900
+preplace netloc cnt_1_d2 1 6 2 590 -620 1300J
+preplace netloc cnt_0_f 1 6 1 660
+preplace netloc cnt_0_d1 1 6 2 560J -580 1270
+preplace netloc cnt_2_g 1 6 1 910
+preplace netloc cnt_1_d3 1 6 2 600 -610 1290J
+preplace netloc huotwo_0_c 1 4 4 NJ 120 220J 860 NJ 860 1330
+preplace netloc cnt_0_g 1 6 1 640
+preplace netloc cnt_0_d2 1 6 2 530J -660 1340
+preplace netloc cnt_0_d3 1 6 2 540J -650 1330
+preplace netloc huo4_6_oup 1 7 2 1220J -540 1630
+preplace netloc huo2_5_c 1 3 6 -390J -790 NJ -790 NJ -790 NJ -790 NJ -790 1600
+preplace netloc cnt_3_a 1 6 1 680
+preplace netloc huo2_0_c 1 3 6 -380J -780 NJ -780 NJ -780 NJ -780 NJ -780 1610
+preplace netloc cnt_3_b 1 6 1 760
+preplace netloc huo2_2_c 1 3 6 -370J -770 NJ -770 NJ -770 NJ -770 NJ -770 1620
+preplace netloc cnt_3_c 1 6 1 780
+preplace netloc cnt_3_d 1 6 1 840
+preplace netloc cnt_3_e 1 6 1 860
+preplace netloc compar_0_answer 1 7 2 1350 -550 1570
+preplace netloc d3_1 1 0 6 NJ -430 -1070 -440 N -440 N -440 N -440 250
+preplace netloc cnt_3_f 1 6 1 620
+preplace netloc amount_0_light 1 2 6 -710 -710 NJ -710 NJ -710 NJ -710 NJ -710 1210
+preplace netloc huo4_5_oup 1 7 2 1230J -530 1620
+preplace netloc cnt_3_g 1 6 1 490
+preplace netloc cnt_2_d0 1 6 2 790 -570 1170J
+preplace netloc cnt_2_d1 1 6 2 800 -560 1160J
+preplace netloc yu4_0_f 1 8 1 1690
+preplace netloc amount_0_a 1 2 1 -740
+preplace netloc cnt_2_d2 1 6 2 810 -550 1150J
+preplace netloc clk_1 1 0 5 -1290 -350 N -350 N -350 N -350 -100
+preplace netloc huo4_3_oup 1 7 2 1260J -500 1590
+levelinfo -pg 1 -1320 -1160 -880 -490 -170 130 410 1010 1460 1870 -top -950 -bot 870
+",
+}
+0

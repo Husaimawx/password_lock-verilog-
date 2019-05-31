@@ -1,0 +1,254 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 26 13:00:36 2019
+# Process ID: 8536
+# Current directory: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_jiepai_0_0_synth_1
+# Command line: vivado.exe -log design_1_jiepai_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_jiepai_0_0.tcl
+# Log file: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_jiepai_0_0_synth_1/design_1_jiepai_0_0.vds
+# Journal file: D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_jiepai_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_jiepai_0_0.tcl -notrace
+Command: synth_design -top design_1_jiepai_0_0 -part xc7a35tcsg324-3 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17588 
+WARNING: [Synth 8-2611] redeclaration of ansi port q1 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q2 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q3 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q4 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q5 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q6 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port q7 is not allowed [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:33]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 456.023 ; gain = 113.047
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_jiepai_0_0' [d:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/bd/design_1/ip/design_1_jiepai_0_0/synth/design_1_jiepai_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'jiepai' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'jiepai' (1#1) [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_jiepai_0_0' (2#1) [d:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/bd/design_1/ip/design_1_jiepai_0_0/synth/design_1_jiepai_0_0.v:57]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 489.551 ; gain = 146.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 489.551 ; gain = 146.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 489.551 ; gain = 146.574
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Synth 8-5545] ROM "q7" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'q1_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q2_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q3_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q4_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q5_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q6_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'q7_reg' [D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.srcs/sources_1/new/jiepai.v:43]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 489.551 ; gain = 146.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module jiepai 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    12|
+|2     |LUT1   |     1|
+|3     |LUT2   |    34|
+|4     |LUT3   |     4|
+|5     |LUT4   |     3|
+|6     |LUT5   |     3|
+|7     |LUT6   |     2|
+|8     |FDRE   |    32|
+|9     |LD     |     7|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    98|
+|2     |  inst   |jiepai |    98|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 633.820 ; gain = 290.844
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  LD => LDCE: 7 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 734.918 ; gain = 404.953
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_jiepai_0_0_synth_1/design_1_jiepai_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1223.441 ; gain = 488.523
+INFO: [Common 17-1381] The checkpoint 'D:/360MoveData/Users/Hiperwe/Desktop/coded_lock/coded_lock.runs/design_1_jiepai_0_0_synth_1/design_1_jiepai_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_jiepai_0_0_utilization_synth.rpt -pb design_1_jiepai_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1223.742 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun May 26 13:01:47 2019...
